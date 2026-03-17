@@ -6,17 +6,29 @@
 
 **A visually stunning, fully responsive portfolio website built with React 18 & Three.js**
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-6C63FF?style=for-the-badge)](https://reactjs18-3-d-portfolio.vercel.app/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/license/mit/)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+<br/>
 
-[![Latest Release](https://img.shields.io/github/v/release/ladunjexa/reactjs18-3d-portfolio?style=flat-square&label=Latest%20Release)](https://github.com/ladunjexa/reactjs18-3d-portfolio/releases/tag/v0.1.0)
-[![Stars](https://img.shields.io/github/stars/ladunjexa/reactjs18-3d-portfolio?style=flat-square)](https://github.com/ladunjexa/reactjs18-3d-portfolio/stargazers)
-[![Forks](https://img.shields.io/github/forks/ladunjexa/reactjs18-3d-portfolio?style=flat-square)](https://github.com/ladunjexa/reactjs18-3d-portfolio/forks)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/ladunjexa/reactjs18-3d-portfolio/pulls)
-[![Deployment](https://img.shields.io/github/deployments/ladunjexa/reactjs18-3d-portfolio/Production?logo=vercel&label=Vercel&style=flat-square)](https://reactjs18-3-d-portfolio.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-Visit%20Site-6C63FF?style=for-the-badge&logoColor=white)](https://reactjs18-3-d-portfolio.vercel.app/)
+[![License: MIT](https://img.shields.io/badge/📄%20License-MIT-F7DF1E?style=for-the-badge&logoColor=black)](https://opensource.org/license/mit/)
+
+<br/>
+
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Three.js](https://img.shields.io/badge/Three.js-3D-000000?style=flat-square&logo=three.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-Build-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-Deploy-000000?style=flat-square&logo=vercel&logoColor=white)
+
+<br/>
+
+[![Stars](https://img.shields.io/github/stars/ladunjexa/reactjs18-3d-portfolio?style=flat-square&logo=github&label=Stars)](https://github.com/ladunjexa/reactjs18-3d-portfolio/stargazers)
+[![Forks](https://img.shields.io/github/forks/ladunjexa/reactjs18-3d-portfolio?style=flat-square&logo=github&label=Forks)](https://github.com/ladunjexa/reactjs18-3d-portfolio/forks)
+[![Latest Release](https://img.shields.io/github/v/release/ladunjexa/reactjs18-3d-portfolio?style=flat-square&label=Release&logo=github)](https://github.com/ladunjexa/reactjs18-3d-portfolio/releases/tag/v0.1.0)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-ff69b4?style=flat-square&logo=github)](https://github.com/ladunjexa/reactjs18-3d-portfolio/pulls)
 [![Known Vulnerabilities](https://snyk.io/test/github/ladunjexa/reactjs18-3d-portfolio/badge.svg?style=flat-square)](https://snyk.io/test/github/ladunjexa/reactjs18-3d-portfolio)
+
+<br/>
 
 ![Vishant - Creative Space Preview](.github/README_ASSETS/3d-portfolio.png)
 
@@ -36,7 +48,6 @@
   - [Environment Variables](#environment-variables)
   - [Available Scripts](#available-scripts)
 - [Deployment](#-deployment)
-- [Contributing](#-contributing)
 - [Acknowledgements](#-acknowledgements)
 - [Contact](#-contact)
 - [License](#-license)
@@ -273,26 +284,6 @@ This outputs a static site to the `./dist/` directory which can be hosted on any
 
 ---
 
-## 🤝 Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, grow, and create. Any contributions you make are **greatly appreciated**.
-
-[![Contributors](https://contrib.rocks/image?repo=ladunjexa/reactjs18-3d-portfolio)](https://github.com/ladunjexa/reactjs18-3d-portfolio/graphs/contributors)
-
-**To contribute:**
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Commit your changes: `git commit -m 'feat: add amazing feature'`
-4. Push to the branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
-
-### 🐛 Bug Reports & Feature Requests
-
-Found a bug or have an idea for improvement? [Open an issue](https://github.com/ladunjexa/reactjs18-3d-portfolio/issues/new) with a clear title and description.
-
----
-
 ## 💎 Acknowledgements
 
 Special thanks to the open-source tools and resources that made this project possible:
@@ -311,25 +302,29 @@ Special thanks to the open-source tools and resources that made this project pos
 
 ## 📬 Contact
 
+<div align="center">
+
 **Vishant** — Vishant - Creative Space
 
-[![Telegram](https://img.shields.io/badge/Telegram-Vishant-2CA5E0?style=flat-square&logo=telegram)](https://t.me/ladunjexa)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vishant-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/lironabutbul)
-[![Instagram](https://img.shields.io/badge/Instagram-Vishant-E4405F?style=flat-square&logo=instagram)](https://www.instagram.com/ladunjexa)
-[![Discord](https://img.shields.io/badge/Discord-Vishant-5865F2?style=flat-square&logo=discord)](https://discord.com/users/827996364331810816)
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect%20with%20me-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/vishanttchaudhary)
+[![Gmail](https://img.shields.io/badge/Gmail-Send%20a%20Mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vishantchaudharyy@gmail.com)
+
+</div>
 
 ---
 
 ## 📄 License
 
 This project is open-source and available under the MIT License.  
-See the [LICENSE](https://github.com/ladunjexa/reactjs18-3d-portfolio/blob/main/LICENSE) file for full details.
+See the LICENSE file for full details.
 
 ---
 
 <div align="center">
 
-Made with ❤️ by **Vishant Chaudhary**
+Made with ❤️ by **Vishant - Creative Space**
 
 ⭐ **If you found this project helpful, please consider giving it a star!** ⭐
 
