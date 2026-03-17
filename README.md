@@ -1,330 +1,336 @@
+<div align="center">
+
+<img src="public/logo.png" alt="3D Portfolio Logo" width="80" height="80" />
+
 # 3D Portfolio
 
-<!-- GitHub badges -->
+**A visually stunning, fully responsive portfolio website built with React 18 & Three.js**
 
-[![Latest release](https://img.shields.io/github/v/release/ladunjexa/reactjs18-3d-portfolio?label=Latest%20release&style=social)](https://github.com/ladunjexa/reactjs18-3d-portfolio/releases/tag/v0.1.0)
-[![Stars](https://img.shields.io/github/stars/ladunjexa/reactjs18-3d-portfolio?style=social)](https://github.com/ladunjexa/reactjs18-3d-portfolio/stargazers)
-[![Fork](https://img.shields.io/github/forks/ladunjexa/reactjs18-3d-portfolio?style=social)](https://github.com/ladunjexa/reactjs18-3d-portfolio/forks)
-[![GitHub commits](https://img.shields.io/github/commit-activity/t/ladunjexa/reactjs18-3d-portfolio?style=social&logo=github)](https://github.com/ladunjexa/reactjs18-3d-portfolio/commits)
-[![Pull requests](https://img.shields.io/github/issues-pr/ladunjexa/reactjs18-3d-portfolio?style=social&logo=github)](https://github.com/ladunjexa/reactjs18-3d-portfolio/pulls)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-6C63FF?style=for-the-badge)](https://reactjs18-3-d-portfolio.vercel.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/license/mit/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
 
-![demo](.github/README_ASSETS/3d-portfolio.png)
+[![Latest Release](https://img.shields.io/github/v/release/ladunjexa/reactjs18-3d-portfolio?style=flat-square&label=Latest%20Release)](https://github.com/ladunjexa/reactjs18-3d-portfolio/releases/tag/v0.1.0)
+[![Stars](https://img.shields.io/github/stars/ladunjexa/reactjs18-3d-portfolio?style=flat-square)](https://github.com/ladunjexa/reactjs18-3d-portfolio/stargazers)
+[![Forks](https://img.shields.io/github/forks/ladunjexa/reactjs18-3d-portfolio?style=flat-square)](https://github.com/ladunjexa/reactjs18-3d-portfolio/forks)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/ladunjexa/reactjs18-3d-portfolio/pulls)
+[![Deployment](https://img.shields.io/github/deployments/ladunjexa/reactjs18-3d-portfolio/Production?logo=vercel&label=Vercel&style=flat-square)](https://reactjs18-3-d-portfolio.vercel.app/)
+[![Known Vulnerabilities](https://snyk.io/test/github/ladunjexa/reactjs18-3d-portfolio/badge.svg?style=flat-square)](https://snyk.io/test/github/ladunjexa/reactjs18-3d-portfolio)
 
-[![ladunjexa](https://custom-icon-badges.demolab.com/badge/made%20by%20-ladunjexa-556bf2?logo=github&logoColor=white&labelColor=101827)](https://github.com/luadnjexa)
-[![License](https://img.shields.io/github/license/ladunjexa/reactjs18-3d-portfolio?color=dddddd&labelColor=000000)](https://github.com/ladunjexa/reactjs18-3d-portfolio/blob/main/LICENSE)
-[![Top Language](https://img.shields.io/github/languages/top/ladunjexa/reactjs18-3d-portfolio?logo=github&logoColor=%23007ACC&label=TypeScript)](https://www.typescriptlang.org/)
-[![Contributors](https://img.shields.io/github/contributors/ladunjexa/reactjs18-3d-portfolio?style=flat&color=orange&label=Contributors)](https://github.com/ladunjexa/reactjs18-3d-portfolio/graphs/contributors)
-![Release](https://img.shields.io/github/release/ladunjexa/reactjs18-3d-portfolio.svg)
-![PRs](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=shields)
-![deployment](https://img.shields.io/github/deployments/ladunjexa/reactjs18-3d-portfolio/Production?logo=vercel&label=Website)
-[![Known Vulnerabilities](https://snyk.io/test/github/ladunjexa/reactjs18-3d-portfolio/badge.svg)](https://snyk.io/test/github/ladunjexa/reactjs18-3d-portfolio)
+![3D Portfolio Preview](.github/README_ASSETS/3d-portfolio.png)
 
-## 🌐 Live Demo
+</div>
 
-Explore the live demonstration of the project:
-[reactjs18-3d-portfolio](https://reactjs18-3-d-portfolio.vercel.app/)
+---
 
-## 📝 Description
+## 📋 Table of Contents
 
-**3D Portfolio** is a well-designed and fully functional portfolio website that is built with
-React.js and Three.js. It is a fully responsive website that works well on all devices.
+- [Overview](#-overview)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Environment Variables](#environment-variables)
+  - [Available Scripts](#available-scripts)
+- [Deployment](#-deployment)
+- [Contributing](#-contributing)
+- [Acknowledgements](#-acknowledgements)
+- [Contact](#-contact)
+- [License](#-license)
 
-<details><summary><b>Folder Structure</b></summary>
+---
 
-```bash
+## 🧭 Overview
+
+**3D Portfolio** is a modern, production-ready portfolio website that combines immersive 3D visuals with a clean, professional layout. Built with **React 18**, **Three.js**, and **Framer Motion**, it delivers a rich user experience across all screen sizes and devices.
+
+Whether you're a developer, designer, or creative professional — this template provides a compelling foundation to showcase your work, skills, and experience with a memorable first impression.
+
+---
+
+## ✨ Features
+
+- 🎮 **Interactive 3D Models** — Animated desktop PC and rotating Earth built with Three.js & WebGL
+- 🌌 **Dynamic Star Field** — Immersive canvas-based star background
+- 🎞️ **Smooth Animations** — Scroll-triggered transitions and micro-interactions powered by Framer Motion
+- 📬 **Working Contact Form** — Email delivery via EmailJS (no backend required)
+- 🧩 **Modular Architecture** — Clean component structure with TypeScript types
+- 📱 **Fully Responsive** — Optimized layout for mobile, tablet, and desktop
+- ⚡ **Blazing Fast** — Vite-powered development and production builds
+- 🔍 **Type-Safe** — End-to-end TypeScript support
+
+---
+
+## 🛠 Tech Stack
+
+| Category | Technology |
+|---|---|
+| **Frontend Framework** | [React 18](https://reactjs.org/) |
+| **Language** | [TypeScript](https://www.typescriptlang.org/) |
+| **3D Rendering** | [Three.js](https://threejs.org/) + [@react-three/fiber](https://docs.pmnd.rs/react-three-fiber) |
+| **Animations** | [Framer Motion](https://www.framer.com/motion/) |
+| **Styling** | [Tailwind CSS](https://tailwindcss.com/) |
+| **Build Tool** | [Vite](https://vitejs.dev/) |
+| **Email Service** | [EmailJS](https://www.emailjs.com/) |
+| **Linting** | [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/) |
+| **Deployment** | [Vercel](https://vercel.com/) |
+
+[![Technologies](https://skillicons.dev/icons?i=ts,react,threejs,tailwind,vite,vercel)](https://skillicons.dev)
+
+---
+
+## 📁 Project Structure
+
+<details>
+<summary>Click to expand the full folder structure</summary>
+
+```
 reactjs18-3d-portfolio/
-├── src/
-├   ├── App.tsx
-├   ├── globals.css
-├   ├── main.tsx
-├   ├── vite.env.d.ts
-├   ├── components/
-├   ├   ├── atoms/
-├   ├   ├   └── Header.tsx
-├   ├   ├── canvas/
-├   ├   ├   ├── Ball.tsx
-├   ├   ├   ├── Computers.tsx
-├   ├   ├   ├── Earth.tsx
-├   ├   ├   ├── Stars.tsx
-├   ├   ├   └── index.ts
-├   ├   ├── layout/
-├   ├   ├   ├── Loader.tsx
-├   ├   ├   └── Navbar.tsx
-├   ├   ├── sections/
-├   ├   ├   ├── About.tsx
-├   ├   ├   ├── Contact.tsx
-├   ├   ├   ├── Experience.tsx
-├   ├   ├   ├── Feedbacks.tsx
-├   ├   ├   ├── Hero.tsx
-├   ├   ├   ├── Tech.tsx
-├   ├   ├   ├── Works.tsx
-├   ├   ├   └── page.tsx
-├   ├   └── index.ts
-├   ├── constants/
-├   ├   ├── config.ts
-├   ├   ├── styles.ts
-├   ├   └── index.ts
-├   ├── hoc/
-├   ├   ├── SectionWrapper.tsx
-├   ├   └── index.ts
-├   ├── utils/
-├   ├   └── motion.ts
-├   ├── types/
-├   ├   └── index.d.ts
-├   └── assets/
-├       ├── company/
-├       ├   └── [[...]].{svg,png}
-├       ├── tech/
-├       ├   └── [[...]].{svg,png}
-├       ├── [[...]].{svg,png}
-├       └── index.ts
 ├── public/
-├   ├── desktop_pc
-├   ├   ├── textures/[[...]].png
-├   ├   ├── license.txt
-├   ├   ├── scene.bin
-├   ├   └── scene.gltf
-├   ├── planet
-├   ├   ├── textures/[[...]].png
-├   ├   ├── license.txt
-├   ├   ├── scene.bin
-├   ├   └── scene.gltf
-├   ├── logo.png
-├   └── logo.svg
-├── .env
-├── .eslintignore
+│   ├── desktop_pc/             # 3D PC model assets (GLTF)
+│   │   ├── textures/
+│   │   ├── scene.bin
+│   │   └── scene.gltf
+│   ├── planet/                 # 3D Earth model assets (GLTF)
+│   │   ├── textures/
+│   │   ├── scene.bin
+│   │   └── scene.gltf
+│   ├── logo.png
+│   └── logo.svg
+│
+├── src/
+│   ├── App.tsx                 # Root application component
+│   ├── main.tsx                # Application entry point
+│   ├── globals.css             # Global styles
+│   ├── vite.env.d.ts
+│   │
+│   ├── assets/                 # Static assets (images, icons)
+│   │   ├── company/
+│   │   ├── tech/
+│   │   └── index.ts
+│   │
+│   ├── components/
+│   │   ├── atoms/
+│   │   │   └── Header.tsx
+│   │   ├── canvas/             # Three.js 3D components
+│   │   │   ├── Ball.tsx
+│   │   │   ├── Computers.tsx
+│   │   │   ├── Earth.tsx
+│   │   │   ├── Stars.tsx
+│   │   │   └── index.ts
+│   │   ├── layout/
+│   │   │   ├── Loader.tsx
+│   │   │   └── Navbar.tsx
+│   │   └── sections/           # Page sections
+│   │       ├── About.tsx
+│   │       ├── Contact.tsx
+│   │       ├── Experience.tsx
+│   │       ├── Feedbacks.tsx
+│   │       ├── Hero.tsx
+│   │       ├── Tech.tsx
+│   │       ├── Works.tsx
+│   │       └── page.tsx
+│   │
+│   ├── constants/
+│   │   ├── config.ts           # Site configuration
+│   │   ├── styles.ts           # Shared style constants
+│   │   └── index.ts
+│   │
+│   ├── hoc/
+│   │   ├── SectionWrapper.tsx  # Higher-order component for sections
+│   │   └── index.ts
+│   │
+│   ├── utils/
+│   │   └── motion.ts           # Framer Motion animation variants
+│   │
+│   └── types/
+│       └── index.d.ts          # Global type definitions
+│
+├── .env                        # Environment variables (git-ignored)
 ├── .eslintrc.cjs
-├── .gitignore
-├── .prettierignore
 ├── .prettierrc.cjs
 ├── index.html
-├── LICENSE
-├── README.md
 ├── package.json
-├── postcss.config.cjs
 ├── tailwind.config.cjs
 ├── tsconfig.json
-├── tsconfig.node.json
 └── vite.config.js
 ```
 
 </details>
 
-## 📖 Table of Contents
+---
 
-<details><summary>Table of Contents</summary>
+## 🚀 Getting Started
 
-- [Live Demo](#-live-demo)
-- [Description](#-description)
-- [Technologies Used](#-technologies-used)
-- [Get Started](#-get-started)
-  - [Prerequisites](#-prerequisites)
-  - [Installation and Run Locally](#-installation-and-run-locally)
-  - [Scripts](#-scripts)
-- [Environment Variables](#-environment-variables)
-- [Deployment](#-deployment)
-  - [Deploy to production (manual)](#-deploy-to-production-manual)
-  - [Deploy on Vercel (recommended)](#-deploy-on-vercel-recommended)
-  - [Deploy on Netlify](#-deploy-on-netlify)
-- [Contributing](#-contributing)
-  - [Bug / Feature Request](#-bug--feature-request)
-- [Acknowledgements](#-acknowledgements)
-- [References](#-references)
-- [Contact Us](#-contact-us)
-- [License](#-license)
+### Prerequisites
 
-</details>
+Ensure the following are installed on your machine before proceeding:
 
-## ✨ Technologies Used
+| Tool | Version |
+|------|---------|
+| [Node.js](https://nodejs.org/en/) | `>= 16.x` |
+| [npm](https://www.npmjs.com/) | `>= 8.x` |
+| [Git](https://git-scm.com/) | Latest |
 
-<details><summary><b>3D Portfolio</b> is built using the following technologies:</summary>
+---
 
-- [TypeScript](https://www.typescriptlang.org/): TypeScript is a typed superset of JavaScript that
-  compiles to plain JavaScript.
-- [Vite](https://vitejs.dev/): Vite is a build tool that aims to provide a faster and leaner
-  development experience for modern web projects.
-- [React.js](https://reactjs.org/): React is a free and open-source front-end JavaScript library for
-  building user interfaces or UI components.
-- [Three.js](https://threejs.org/): Three.js is a cross-browser JavaScript library and application
-  programming interface used to create and display animated 3D computer graphics in a web browser
-  using WebGL.
-- [Framer Motion](https://www.framer.com/motion/): Framer Motion is a production-ready motion
-  library for React.
-- [Tailwind CSS](https://tailwindcss.com/): Tailwind CSS is a utility-first CSS framework for
-  rapidly building custom user interfaces.
-- [ESLint](https://eslint.org/): ESLint is a static code analysis tool for identifying problematic
-  patterns found in JavaScript code.
-- [Prettier](https://prettier.io/): Prettier is an opinionated code formatter.
-- [Vercel](https://vercel.com/): Vercel is a cloud platform for frontend developers, providing the
-  frameworks, workflows, and infrastructure to build a faster, more personalized Web.
+### Installation
 
-</details><br/>
-
-[![Technologies Used](https://skillicons.dev/icons?i=ts,vite,react,threejs,tailwind,vercel)](https://skillicons.dev)
-
-## 🧰 Get Started
-
-To get this project up and running in your development environment, follow these step-by-step
-instructions.
-
-### 📋 Prerequisites
-
-In order to install and run this project locally, you would need to have the following installed on
-your local machine.
-
-- [Node.js](https://nodejs.org/en/)
-- [NPM](https://www.npmjs.com/get-npm)
-- [Git](https://git-scm.com/downloads)
-
-### ⚙️ Installation and Run Locally
-
-**Step 0:**
-
-Note :bangbang: the application uses EmailJS in order to send emails using client-side, therefore,
-you need to create EmailJS account [here](https://emailjs.com/) and sets the
-`VITE_EMAILJS_SERVICE_ID`, `VITE_EMAILJS_TEMPLATE_ID`, and `VITE_EMAIL_JS_ACCESS_TOKEN` environment
-variables in `.env` file.
-
-**Step 1:**
-
-Download or clone this repo by using the link below:
+**1. Clone the repository**
 
 ```bash
 git clone https://github.com/ladunjexa/reactjs18-3d-portfolio.git
+cd reactjs18-3d-portfolio
 ```
 
-**Step 2:**
-
-Execute the following command in the root directory of the downloaded repo in order to install
-dependencies:
+**2. Install dependencies**
 
 ```bash
 npm install
 ```
 
-**Step 3:**
+**3. Configure environment variables**
 
-Execute the following command in order to run the development server locally:
+Create a `.env` file in the root directory (see [Environment Variables](#environment-variables) below).
+
+**4. Start the development server**
 
 ```bash
 npm run dev
 ```
 
-**Step 4:**
+**5. Open your browser**
 
-Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
+Navigate to [http://localhost:5173](http://localhost:5173) to see the app running locally.
 
-### 📜 Scripts
+---
 
-All scripts are defined in the `package.json` file. Here is a list of all scripts:
+### Environment Variables
 
-| Script             | Action                                      |
-| :----------------- | :------------------------------------------ |
-| `npm install`      | Installs dependencies                       |
-| `npm run dev`      | Starts local dev server at `localhost:5137` |
-| `npm run build`    | Build your production site to `./dist/`     |
-| `npm run preview`  | Boot up a local static web server           |
-| `npm run lint`     | Run ESLint                                  |
-| `npm run ts:check` | Perform type-checking                       |
+This project uses [EmailJS](https://www.emailjs.com/) to handle contact form submissions without a backend. You will need to create a free account and obtain the following credentials.
 
-## 🔒 Environment Variables
-
-Environment variables[^3] can be used for configuration. They must be set before running the app.
-
-> [Environment variables](https://en.wikipedia.org/wiki/Environment_variable) are variables that are
-> set in the operating system or shell, typically used to configure programs.
-
-**React.js 18 3D Portfolio** uses [EmailJS](https://www.emailjs.com/) as external service. You need
-to create an account and get the required credentials to run the app.
-
-Create a `.env` file in the root directory of the project and add the following environment
-variables:
+Create a `.env` file in the root of the project:
 
 ```env
-VITE_EMAILJS_SERVICE_ID=<VITE_EMAILJS_SERVICE_ID>
-VITE_EMAILJS_TEMPLATE_ID=<VITE_EMAILJS_TEMPLATE_ID>
-VITE_EMAIL_JS_ACCESS_TOKEN=<VITE_EMAIL_JS_ACCESS_TOKEN>
+# EmailJS Configuration
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAIL_JS_ACCESS_TOKEN=your_access_token
 ```
 
-## 🚀 Deployment
+> ⚠️ **Never commit your `.env` file to version control.** It is already included in `.gitignore`.
 
-#### Deploy to production (manual)
+To obtain these values:
+1. Sign up at [emailjs.com](https://emailjs.com/)
+2. Create an **Email Service** → copy the **Service ID**
+3. Create an **Email Template** → copy the **Template ID**
+4. Navigate to **Account** → **API Keys** → copy your **Public Key** (Access Token)
 
-You can create an optimized production build with the following command:
+---
+
+### Available Scripts
+
+All scripts are defined in `package.json`:
+
+| Script | Description |
+|--------|-------------|
+| `npm run dev` | Start local development server at `localhost:5173` |
+| `npm run build` | Create an optimized production build in `./dist/` |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Run ESLint to check for code issues |
+| `npm run ts:check` | Run TypeScript type-checking |
+
+---
+
+## ☁️ Deployment
+
+### Deploy on Vercel *(Recommended)*
+
+The fastest way to deploy. Click below to instantly clone and deploy:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fladunjexa%2Freactjs18-3d-portfolio)
+
+> Be sure to add your environment variables in the Vercel project settings.
+
+---
+
+### Deploy on Netlify
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ladunjexa/reactjs18-3d-portfolio)
+
+---
+
+### Manual Production Build
 
 ```bash
 npm run build
 ```
 
-#### Deploy on Vercel (recommended)
+This outputs a static site to the `./dist/` directory which can be hosted on any static file server.
 
-The easiest way to deploy this Next.js app is to use the
-[Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
+---
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fladunjexa%2Freactjs18-3d-portfolio)
+## 🤝 Contributing
 
-#### Deploy on Netlify
+Contributions are what make the open-source community such an amazing place to learn, grow, and create. Any contributions you make are **greatly appreciated**.
 
-You can also deploy this Next.js app with [Netlify](https://www.netlify.com/).
+[![Contributors](https://contrib.rocks/image?repo=ladunjexa/reactjs18-3d-portfolio)](https://github.com/ladunjexa/reactjs18-3d-portfolio/graphs/contributors)
 
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ladunjexa/reactjs18-3d-portfolio)
+**To contribute:**
 
-Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m 'feat: add amazing feature'`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request
 
-## 🔧 Contributing
+### 🐛 Bug Reports & Feature Requests
 
-[![contributors](https://contrib.rocks/image?repo=ladunjexa/reactjs18-3d-portfolio)](https://github.com/ladunjexa/reactjs18-3d-portfolio/graphs/contributors)
+Found a bug or have an idea for improvement? [Open an issue](https://github.com/ladunjexa/reactjs18-3d-portfolio/issues/new) with a clear title and description.
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and
-create. Any contributions you make are **greatly appreciated**.
-
-To fix a bug or enhance an existing module, follow these steps:
-
-1. Fork the repo
-2. Create a new branch (`git checkout -b improve-feature`)
-3. Make the appropriate changes in the files
-4. Commit your changes (`git commit -am 'Improve feature'`)
-5. Push to the branch (`git push origin improve-feature`)
-6. Create a Pull Request 🎉
-
-### 📩 Bug / Feature Request
-
-If you find a bug (failure of a module to execute its intended function), kindly open an issue
-[here](https://github.com/ladunjexa/reactjs18-3d-portfolio/issues/new) by including the issue with a
-title and clear description.
-
-If you'd like to request a new function, feel free to do so by opening an issue
-[here](https://github.com/ladunjexa/reactjs18-3d-portfolio/issues/new). Please include sample
-queries and their corresponding results.
+---
 
 ## 💎 Acknowledgements
 
-I'd like to express my gratitude to the following people who helped me with this project and made it
-possible:
+Special thanks to the open-source tools and resources that made this project possible:
 
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Three.js](https://threejs.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [React Vertical Timeline Component](https://www.npmjs.com/package/react-vertical-timeline-component)
-- [React Parallax Tilt](https://www.npmjs.com/package/react-parallax-tilt)
-- [Maath](https://www.npmjs.com/package/maath)
-- [EmailJS](https://www.emailjs.com/)
-- [ESLint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [Vercel](https://vercel.com/)
-- [JavaScript Mastery](https://www.jsmastery.pro/)
+- [Three.js](https://threejs.org/) — 3D graphics engine
+- [React Three Fiber](https://docs.pmnd.rs/react-three-fiber) — React renderer for Three.js
+- [Framer Motion](https://www.framer.com/motion/) — Animation library
+- [Tailwind CSS](https://tailwindcss.com/) — Utility-first CSS framework
+- [React Vertical Timeline Component](https://www.npmjs.com/package/react-vertical-timeline-component) — Timeline UI
+- [React Parallax Tilt](https://www.npmjs.com/package/react-parallax-tilt) — Tilt animation
+- [Maath](https://www.npmjs.com/package/maath) — Math helpers for 3D
+- [EmailJS](https://www.emailjs.com/) — Client-side email delivery
+- [JavaScript Mastery](https://www.jsmastery.pro/) — Project inspiration
 
-## 📞 Contact Us
+---
 
-[![Telegram](https://img.shields.io/badge/Telegram-@ladunjexa-2CA5E0?style=social&logo=telegram&logoColor=000000)](https://t.me/ladunjexa)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ladunjexa-blue?style=flat&logo=linkedin&logoColor=b0c0c0&labelColor=363D44)](https://www.linkedin.com/in/lironabutbul)
-[![Instagram](https://img.shields.io/badge/Instagram-ladunjexa-grey?style=flat&logo=instagram&logoColor=b0c0c0&labelColor=8134af)](https://www.instagram.com/ladunjexa)
-[![Discord](https://img.shields.io/badge/Discord-ladunjexa-7289da?style=flat&logo=discord&logoColor=b0c0c0&labelColor=2c2f33)](https://discord.com/users/827996364331810816)
+## 📬 Contact
 
-<!-- [![Twitter](https://img.shields.io/twitter/follow/ladunjexa.svg?style=social)](https://twitter.com/intent/follow?screen_name=ladunjexa) -->
+**Liron Abutbul** — [@ladunjexa](https://github.com/ladunjexa)
 
-## 📋 License
+[![Telegram](https://img.shields.io/badge/Telegram-@ladunjexa-2CA5E0?style=flat-square&logo=telegram)](https://t.me/ladunjexa)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ladunjexa-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/lironabutbul)
+[![Instagram](https://img.shields.io/badge/Instagram-ladunjexa-E4405F?style=flat-square&logo=instagram)](https://www.instagram.com/ladunjexa)
+[![Discord](https://img.shields.io/badge/Discord-ladunjexa-5865F2?style=flat-square&logo=discord)](https://discord.com/users/827996364331810816)
 
-**Three.js 3D Portfolio** is open source software
-[licensed as MIT](https://opensource.org/license/mit/) and is free to use — See
-[LICENSE](https://github.com/ladunjexa/reactjs18-3d-portfolio/blob/main/LICENSE) for more details.
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](https://opensource.org/license/mit/).  
+See the [LICENSE](https://github.com/ladunjexa/reactjs18-3d-portfolio/blob/main/LICENSE) file for full details.
+
+---
+
+<div align="center">
+
+Made with ❤️ by [ladunjexa](https://github.com/ladunjexa)
+
+⭐ **If you found this project helpful, please consider giving it a star!** ⭐
+
+</div>
