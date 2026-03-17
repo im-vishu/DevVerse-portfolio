@@ -15,11 +15,12 @@ const INITIAL_STATE = Object.fromEntries(
 const emailjsConfig = {
   serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID,
   templateId: import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-  accessToken: import.meta.env.VITE_EMAILJS_ACCESS_TOKEN,
+  publicKey: import.meta.env.VITE_EMAILJS_ACCESS_TOKEN, // Change 'accessToken' to 'publicKey'
 };
 
 const Contact = () => {
-  const formRef = useRef<React.LegacyRef<HTMLFormElement> | undefined>();
+
+  const formRef = useRef<HTMLFormElement>(null);
   const [form, setForm] = useState(INITIAL_STATE);
   const [loading, setLoading] = useState(false);
 
@@ -31,39 +32,33 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement> | undefined) => {
-    if (e === undefined) return;
-    e.preventDefault();
-    setLoading(true);
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+  setLoading(true);
 
-    emailjs
-      .send(
-        emailjsConfig.serviceId,
-        emailjsConfig.templateId,
-        {
-          form_name: form.name,
-          to_name: config.html.fullName,
-          from_email: form.email,
-          to_email: config.html.email,
-          message: form.message,
-        },
-        emailjsConfig.accessToken
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
-
-          setForm(INITIAL_STATE);
-        },
-        (error) => {
-          setLoading(false);
-
-          console.log(error);
-          alert("Something went wrong.");
-        }
-      );
-  };
+  emailjs
+  .send(
+    emailjsConfig.serviceId,
+    emailjsConfig.templateId,
+    {
+      form_name: form.name,
+      from_email: form.email,
+      to_name: "Vishant Chaudhary",
+      message: form.message,
+    },
+    emailjsConfig.publicKey // Use the updated variable name here
+  )
+    .then(() => {
+      setLoading(false);
+      alert("Success! Check your inbox.");
+      setForm(INITIAL_STATE);
+    })
+    .catch((error) => {
+      setLoading(false);
+      console.error(error);
+      alert("Failed to send. Check console for details.");
+    });
+};
 
   return (
     <div
@@ -76,7 +71,7 @@ const Contact = () => {
         <Header useMotion={false} {...config.contact} />
 
         <form
-          // @ts-expect-error
+          
           ref={formRef}
           onSubmit={handleSubmit}
           className="mt-12 flex flex-col gap-8"
