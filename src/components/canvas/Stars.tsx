@@ -4,6 +4,8 @@ import { Points, PointMaterial, Preload } from "@react-three/drei";
 import { random } from "maath";
 import { TypedArray } from "three";
 
+import * as THREE from "three";
+
 const Stars = (props: any) => {
   const ref = useRef<THREE.Points>();
   const [sphere] = useState<TypedArray>(() =>
