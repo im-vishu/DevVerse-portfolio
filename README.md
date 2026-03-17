@@ -1,15 +1,15 @@
 <div align="center">
 
-<img src="public/logo.png" alt="3D Portfolio Logo" width="80" height="80" />
+<img src="public/logo.png" alt="Vishant - Creative Space Logo" width="80" height="80" />
 
-# 3D Portfolio
+# Vishant - Creative Space
 
 **A visually stunning, fully responsive portfolio website built with React 18 & Three.js**
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-6C63FF?style=for-the-badge)](https://reactjs18-3-d-portfolio.vercel.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/license/mit/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 
 [![Latest Release](https://img.shields.io/github/v/release/ladunjexa/reactjs18-3d-portfolio?style=flat-square&label=Latest%20Release)](https://github.com/ladunjexa/reactjs18-3d-portfolio/releases/tag/v0.1.0)
 [![Stars](https://img.shields.io/github/stars/ladunjexa/reactjs18-3d-portfolio?style=flat-square)](https://github.com/ladunjexa/reactjs18-3d-portfolio/stargazers)
@@ -18,7 +18,7 @@
 [![Deployment](https://img.shields.io/github/deployments/ladunjexa/reactjs18-3d-portfolio/Production?logo=vercel&label=Vercel&style=flat-square)](https://reactjs18-3-d-portfolio.vercel.app/)
 [![Known Vulnerabilities](https://snyk.io/test/github/ladunjexa/reactjs18-3d-portfolio/badge.svg?style=flat-square)](https://snyk.io/test/github/ladunjexa/reactjs18-3d-portfolio)
 
-![3D Portfolio Preview](.github/README_ASSETS/3d-portfolio.png)
+![Vishant - Creative Space Preview](.github/README_ASSETS/3d-portfolio.png)
 
 </div>
 
@@ -45,7 +45,7 @@
 
 ## 🧭 Overview
 
-**3D Portfolio** is a modern, production-ready portfolio website that combines immersive 3D visuals with a clean, professional layout. Built with **React 18**, **Three.js**, and **Framer Motion**, it delivers a rich user experience across all screen sizes and devices.
+**Vishant - Creative Space** is a modern, production-ready portfolio website that combines immersive 3D visuals with a clean, professional layout. Built with **React 18**, **Three.js**, and **Framer Motion**, it delivers a rich user experience across all screen sizes and devices.
 
 Whether you're a developer, designer, or creative professional — this template provides a compelling foundation to showcase your work, skills, and experience with a memorable first impression.
 
@@ -68,17 +68,17 @@ Whether you're a developer, designer, or creative professional — this template
 
 | Category | Technology |
 |---|---|
-| **Frontend Framework** | [React 18](https://reactjs.org/) |
-| **Language** | [TypeScript](https://www.typescriptlang.org/) |
-| **3D Rendering** | [Three.js](https://threejs.org/) + [@react-three/fiber](https://docs.pmnd.rs/react-three-fiber) |
-| **Animations** | [Framer Motion](https://www.framer.com/motion/) |
-| **Styling** | [Tailwind CSS](https://tailwindcss.com/) |
-| **Build Tool** | [Vite](https://vitejs.dev/) |
-| **Email Service** | [EmailJS](https://www.emailjs.com/) |
-| **Linting** | [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/) |
-| **Deployment** | [Vercel](https://vercel.com/) |
+| **Frontend Framework** | React 18 |
+| **Language** | TypeScript |
+| **3D Rendering** | Three.js + @react-three/fiber |
+| **Animations** | Framer Motion |
+| **Styling** | Tailwind CSS |
+| **Build Tool** | Vite |
+| **Email Service** | EmailJS |
+| **Linting** | ESLint + Prettier |
+| **Deployment** | Vercel |
 
-[![Technologies](https://skillicons.dev/icons?i=ts,react,threejs,tailwind,vite,vercel)](https://skillicons.dev)
+![Technologies](https://skillicons.dev/icons?i=ts,react,threejs,tailwind,vite,vercel)
 
 ---
 
@@ -171,9 +171,9 @@ Ensure the following are installed on your machine before proceeding:
 
 | Tool | Version |
 |------|---------|
-| [Node.js](https://nodejs.org/en/) | `>= 16.x` |
-| [npm](https://www.npmjs.com/) | `>= 8.x` |
-| [Git](https://git-scm.com/) | Latest |
+| Node.js | `>= 16.x` |
+| npm | `>= 8.x` |
+| Git | Latest |
 
 ---
 
@@ -210,7 +210,7 @@ Navigate to [http://localhost:5173](http://localhost:5173) to see the app runnin
 
 ### Environment Variables
 
-This project uses [EmailJS](https://www.emailjs.com/) to handle contact form submissions without a backend. You will need to create a free account and obtain the following credentials.
+This project uses EmailJS to handle contact form submissions without a backend. You will need to create a free account at emailjs.com and obtain the following credentials.
 
 Create a `.env` file in the root of the project:
 
@@ -224,7 +224,7 @@ VITE_EMAIL_JS_ACCESS_TOKEN=your_access_token
 > ⚠️ **Never commit your `.env` file to version control.** It is already included in `.gitignore`.
 
 To obtain these values:
-1. Sign up at [emailjs.com](https://emailjs.com/)
+1. Sign up at emailjs.com
 2. Create an **Email Service** → copy the **Service ID**
 3. Create an **Email Template** → copy the **Template ID**
 4. Navigate to **Account** → **API Keys** → copy your **Public Key** (Access Token)
@@ -297,39 +297,39 @@ Found a bug or have an idea for improvement? [Open an issue](https://github.com/
 
 Special thanks to the open-source tools and resources that made this project possible:
 
-- [Three.js](https://threejs.org/) — 3D graphics engine
-- [React Three Fiber](https://docs.pmnd.rs/react-three-fiber) — React renderer for Three.js
-- [Framer Motion](https://www.framer.com/motion/) — Animation library
-- [Tailwind CSS](https://tailwindcss.com/) — Utility-first CSS framework
-- [React Vertical Timeline Component](https://www.npmjs.com/package/react-vertical-timeline-component) — Timeline UI
-- [React Parallax Tilt](https://www.npmjs.com/package/react-parallax-tilt) — Tilt animation
-- [Maath](https://www.npmjs.com/package/maath) — Math helpers for 3D
-- [EmailJS](https://www.emailjs.com/) — Client-side email delivery
-- [JavaScript Mastery](https://www.jsmastery.pro/) — Project inspiration
+- **Three.js** — 3D graphics engine
+- **React Three Fiber** — React renderer for Three.js
+- **Framer Motion** — Animation library
+- **Tailwind CSS** — Utility-first CSS framework
+- **React Vertical Timeline Component** — Timeline UI
+- **React Parallax Tilt** — Tilt animation
+- **Maath** — Math helpers for 3D
+- **EmailJS** — Client-side email delivery
+- **JavaScript Mastery** — Project inspiration
 
 ---
 
 ## 📬 Contact
 
-**Liron Abutbul** — [@ladunjexa](https://github.com/ladunjexa)
+**Vishant** — Vishant - Creative Space
 
-[![Telegram](https://img.shields.io/badge/Telegram-@ladunjexa-2CA5E0?style=flat-square&logo=telegram)](https://t.me/ladunjexa)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ladunjexa-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/lironabutbul)
-[![Instagram](https://img.shields.io/badge/Instagram-ladunjexa-E4405F?style=flat-square&logo=instagram)](https://www.instagram.com/ladunjexa)
-[![Discord](https://img.shields.io/badge/Discord-ladunjexa-5865F2?style=flat-square&logo=discord)](https://discord.com/users/827996364331810816)
+[![Telegram](https://img.shields.io/badge/Telegram-Vishant-2CA5E0?style=flat-square&logo=telegram)](https://t.me/ladunjexa)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vishant-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/lironabutbul)
+[![Instagram](https://img.shields.io/badge/Instagram-Vishant-E4405F?style=flat-square&logo=instagram)](https://www.instagram.com/ladunjexa)
+[![Discord](https://img.shields.io/badge/Discord-Vishant-5865F2?style=flat-square&logo=discord)](https://discord.com/users/827996364331810816)
 
 ---
 
 ## 📄 License
 
-This project is open-source and available under the [MIT License](https://opensource.org/license/mit/).  
+This project is open-source and available under the MIT License.  
 See the [LICENSE](https://github.com/ladunjexa/reactjs18-3d-portfolio/blob/main/LICENSE) file for full details.
 
 ---
 
 <div align="center">
 
-Made with ❤️ by [ladunjexa](https://github.com/ladunjexa)
+Made with ❤️ by **Vishant Chaudhary**
 
 ⭐ **If you found this project helpful, please consider giving it a star!** ⭐
 
