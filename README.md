@@ -13,22 +13,6 @@
 
 <br/>
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/ladunjexa/reactjs18-3d-portfolio)
-[![React](https://img.shields.io/badge/React%2018-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://github.com/ladunjexa/reactjs18-3d-portfolio)
-[![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)](https://github.com/ladunjexa/reactjs18-3d-portfolio)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://github.com/ladunjexa/reactjs18-3d-portfolio)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://github.com/ladunjexa/reactjs18-3d-portfolio)
-[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/ladunjexa/reactjs18-3d-portfolio)
-
-<br/>
-
-[![Stars](https://img.shields.io/github/stars/ladunjexa/reactjs18-3d-portfolio?style=for-the-badge&logo=github&label=Stars&color=181717)](https://github.com/ladunjexa/reactjs18-3d-portfolio/stargazers)
-[![Forks](https://img.shields.io/github/forks/ladunjexa/reactjs18-3d-portfolio?style=for-the-badge&logo=github&label=Forks&color=181717)](https://github.com/ladunjexa/reactjs18-3d-portfolio/forks)
-[![Release](https://img.shields.io/github/v/release/ladunjexa/reactjs18-3d-portfolio?style=for-the-badge&logo=github&label=Release&color=181717)](https://github.com/ladunjexa/reactjs18-3d-portfolio/releases/tag/v0.1.0)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-E91E8C?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ladunjexa/reactjs18-3d-portfolio/pulls)
-
-<br/>
-
 ![Vishant - Creative Space Preview](.github/README_ASSETS/3d-portfolio.png)
 
 </div>
@@ -39,6 +23,7 @@
 
 - [Overview](#-overview)
 - [Features](#-features)
+- [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
 - [Getting Started](#-getting-started)
 - [Deployment](#-deployment)
@@ -66,6 +51,22 @@ Built from scratch using **React 18**, **Three.js**, **Framer Motion**, and **Ta
 - 📱 **Pixel-Perfect Responsive** — Looks great on every screen size
 - ⚡ **Instant Dev Experience** — Vite HMR makes iteration fast
 - 🔐 **Strictly Typed** — End-to-end TypeScript, no `any` shortcuts
+
+---
+
+## 🛠 Tech Stack
+
+| Category | Technology |
+|---|---|
+| **Frontend Framework** | React 18 |
+| **Language** | TypeScript |
+| **3D Rendering** | Three.js + @react-three/fiber |
+| **Animations** | Framer Motion |
+| **Styling** | Tailwind CSS |
+| **Build Tool** | Vite |
+| **Email Service** | EmailJS |
+| **Linting** | ESLint + Prettier |
+| **Deployment** | Vercel |
 
 ---
 
@@ -184,7 +185,7 @@ See [LICENSE](https://github.com/ladunjexa/reactjs18-3d-portfolio/blob/main/LICE
 
 <div align="center">
 
-Crafted with ❤️ by **Vishant — Creative Space**
+Crafted with ❤️ by **Vishant Chaudhary**
 
 *If this helped you, a ⭐ means the world.*
 
