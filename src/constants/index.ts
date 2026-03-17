@@ -39,6 +39,7 @@ export const navLinks: TNavLink[] = [
     id: "about",
     title: "About",
   },
+
   {
     id: "work",
     title: "Work",
@@ -51,20 +52,20 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Software Developer",
+    icon: creator,
   },
   {
-    title: "Backend Developer",
+    title: "Web Developer - MERN Stack",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Aspiring Cloud Engineer",
+    icon: mobile,
   },
 ];
 
@@ -125,57 +126,43 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
+    title: "Web Development Intern – MERN Stack",
+    companyName: "Internship Alert",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Nov 2024 - Jan 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    "Designed and deployed RESTful APIs with the MERN stack, improving scalability and application performance.",
+    "Implemented secure access controls and best coding practices, strengthening data protection and system reliability.",
+    "Managed sprints via GitHub Agile boards, achieving 100% on-time sprint delivery across all projects.",
+  ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
+    title: "Software Engineer Intern",
+    companyName: "Wave Techtronics",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jun 2025 - Aug 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    "Reduced deployment errors by 40% by Dockerizing backend services, standardizing environment configuration across dev, staging, and production.",
+    "Cut release cycles by 30% through end-to-end CI/CD pipeline automation handling builds, test suites, and deployment triggers.",
+    "Improved real-time interface responsiveness by building dynamic React.js and Node.js modules for live-data dashboards.",
+  ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  title: "Freelance Software Developer",
+  companyName: "Self-Employed", 
+  icon: shopify, // Make sure to import a freelance or code icon at the top
+  iconBg: "#383E56", 
+  date: "Dec 2025 - Present",
+  points: [
+    "Specializing in Frontend Development to build high-performance, visually immersive web applications using React.js and Tailwind CSS.",
+    "Developing custom UI components and 3D web interfaces for diverse clients, ensuring unique brand identities.",
+    "Optimizing website performance and SEO to improve client search rankings and user retention rates.",
+    "Managing the end-to-end development lifecycle, from initial wireframing in Figma to final cloud deployment.",
+  ],
+},
+ 
 ];
 
 const testimonials: TTestimonial[] = [
@@ -207,12 +194,12 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Uber-clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A full-stack ride-hailing platform that connects riders with drivers, enabling real-time booking, secure JWT authentication, and dual-role management for seamless and efficient urban transportation.",
     tags: [
       {
-        name: "react",
+        name: "react-19",
         color: "blue-text-gradient",
       },
       {
@@ -223,51 +210,110 @@ const projects: TProject[] = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Vite-8",
+        color: "pink-text-gradient",
+      },
     ],
     image: carrent,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/im-vishu/uber-clone",
   },
   {
-    name: "Job IT",
+    name: "fuzzy-broccoli",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A full-stack beauty platform where users search cosmetic products, discover affordable dupes, share reviews, and join real-time discussions with an admin panel and blog system.",
     tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SupaBase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "expressjs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "AuthO",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/im-vishu/fuzzy-broccoli",
   },
   {
-    name: "Trip Guide",
+    name: "MediSync",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Full-stack doctor appointment booking platform that connects patients with healthcare providers, enabling real-time slot booking, role-based access control, and secure JWT authentication for seamless medical management.",
     tags: [
       {
-        name: "nextjs",
+        name: "expressjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "postgreSQL",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Restful API",
         color: "pink-text-gradient",
       },
+      {
+        name: "JWT & Bcrypt",
+        color: "blue-text-gradient",
+      }
     ],
     image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/im-vishu/MediSync",
+  },
+
+  {
+    name: "EchoSuggest",
+    description:
+      "A full-stack AI-powered e-commerce recommendation engine that delivers personalized product suggestions using hybrid collaborative and content-based filtering with a React frontend and FastAPI backend.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "FastAPI(python)",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Axios",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "Scikit-learn",
+        color: "green-text-gradient",
+      }
+    ],
+    image: tripguide,
+    sourceCodeLink: "https://github.com/im-vishu/EchoSuggest",
   },
 ];
 

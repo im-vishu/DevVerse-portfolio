@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "Vishant — 3D Portfolio",
+    title: "Vishant — Creative Space",
     fullName: "Vishant Chaudhary",
     email: "vishantchaudharyy@gmail.com",
   },
   hero: {
     name: "Vishant Chaudhary",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    p: ["I architect scalable APIs, responsive", "interfaces and production-ready applications."],
   },
   contact: {
     p: "Get in touch",
@@ -67,11 +67,7 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `Full-stack JavaScript developer specializing in React, Node.js, and Python — building scalable web applications, RESTful APIs with Flask, and cloud-native infrastructure on AWS. I containerize deployments with Docker, architect reliable backend systems, and craft responsive, pixel-perfect frontends with Tailwind CSS. I write clean, maintainable code and take full ownership of the development lifecycle — from system design to production deployment. Passionate about delivering high-performance, scalable solutions that solve real-world problems with precision and impact.`,
     },
     experience: {
       p: "What I have done so far",
