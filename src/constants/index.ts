@@ -24,7 +24,7 @@ import {
   git,
   figma,
   docker,
-  meta,
+  // meta,        // ❌ REMOVE THIS - UNUSED
   starbucks,
   tesla,
   shopify,
